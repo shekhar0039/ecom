@@ -1,0 +1,71 @@
+*{
+  margin: 0px;padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+  font-family: "Lato", serif; font-size: 14px;
+}
+
+::-webkit-scrollbar{width: 8px !important; height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #ccc !important;}
+::-webkit-scrollbar-track{background: transparent !important;}
+
+
+.bg-purple{
+  background-color: #2f1e8f;
+}
+.headerWrapper  .top-strip{padding: 8px 0px;}
+.headerWrapper .top-strip p{color:#fff; font-size: 12px; font-weight: 700;}
+
+.headerWrapper .header{width:100%; height: auto; padding: 10px 0px;}
+.logoWrapper img{width: 100%;}
+
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: auto; min-width: 150px; color:#000 !important; border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px !important; padding: 10px 10px !important;}
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important;}
+.headerWrapper .header .part2 .countryDrop .lable{font-size: 12px !important; text-transform: capitalize !important; color:rgba(0,0,0,0.7) !important; font-weight:700; line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop .lable{font-size: 14px !important; color:rgba(0,0,0,0.8) !important; font-weight:700; line-height: 16px;}
+
+.headerWrapper .header .part2 .countryDrop span.ml.auto svg{opacity: 0.7px;}
+
+ .headerSearch{width: 60%; height: 60px; background: #f3f4f7 !important; padding: 10px; position: relative;}
+ .headerSearch input{background: transparent !important; outline: none !important; font-size: 14px; color: rgba(0,0,0,0.8); width: 100%; height: 40px; border: none !important; padding: 0px 25px !important;}
+
+.headerSearch Button{position: absolute; top: 10px; right: 15px; z-index: 100; min-width: 40px !important; height: 40px !important;
+width: 40px !important; border-radius: 50% !important;}
+
+ .part3 .circle{align-items: center; justify-content: center; min-width: 50px !important; height: 50px !important; width: 50px !important;
+border-radius: 50px !important; border: 1px solid rgba(0,0,0,0.1) !important;}
+header .part3 .circle svg{font-size: 20px;}
+
+.cartTab .price{font-size: 18px; color: rgba(0,0,0,0.8); font-weight: 700;}
+.cartTab .button{background: #fff1ee !important;}
+.cartTab Button svg {color: #ea2b0f !important;}
+.cartTab .count {position: absolute; top: 0px; right: 0px; background:#ea2b0f ; border-radius: 50px; color: #fff;
+width: 20px; height: 20px;}
+
+
+.locationModal .MuiPaper-elevation{padding: 25px; position: relative;}
+.locationModal  ul{margin-bottom: 0px; max-height: 400px; overflow-y: scroll; overflow-x: hidden;}
+.locationModal ul li{width: 100%; list-style: none;}
+.locationModal ul li button{width: 100%; text-transform:capitalize !important; color: #000 !important;
+justify-content: flex-start !important; padding: 10px 20px;}
+
+.locationModal .close_{position: absolute; top: 5px; right: 10px; color: #000 !important; min-width: 40px !important; width: 40px !important;
+height: 40px !important; border-radius: 50px !important;}
+.locationModal .close_ svg{font-size: 20px;}
+
+nav .allCatTab{background: #2bbef9; padding: 10px 12px !important; border-radius: 30px !important;}
+nav .allCatTab{color:#fff}
+nav .allCatTab:hover{background: #2bbef9;}
+nav .allCatTab .text{font-weight: 600; font-size: 11px;}
+
+nav .allCatTab .icon1 svg{font-size: 20px !important;}
+nav .allCatTab .icon2 svg{font-size: 15px !important;}
+
+nav .navpart2 ul{margin-bottom: 0px;}
+nav .navpart2 ul li a{text-decoration: none;}
+nav .navpart2 ul li a button{font-size: 15px; font-weight: 600; text-decoration: none; color: rgba(0,0,0,0.7); text-transform: uppercase;
+display: flex; align-items: center; padding: 10px 15px; transition: all 0.2s ease-in-out; border-radius: 30px;}
+nav .navpart2 ul li a svg{font-size: 20px;}
+
+nav .navpart2 ul li a:hover{background: #f0faff; color: #2bbef9;}
